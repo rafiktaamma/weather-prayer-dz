@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap-select/dist/css/bootstrap-select.css";
+
+/* background animation */
+/*.color-change-2x {
+  -webkit-animation: color-change-2x 5s linear infinite alternate both;
+  animation: color-change-2x 5s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #2c3e50;
+  }
+  100% {
+    background: #4ca1af;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #2c3e50;
+  }
+  100% {
+    background: #4ca1af;
+  }
+}*/
+
+
+
+/* -----------------------------------*/
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*box-sizing: border-box;*/
+
+}
+html {
+  min-height: 100% !important;
+}
+body {
+  height: 100% !important;
+}
+
+body {
+
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif !important;
+  color: white !important;
+  height: 100% !important;
+  /*background: linear-gradient(to bottom, rgb(43,50,178) 0%, rgb(20,136,204) 100%);*/
+  /*background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);*/
+  /*background: linear-gradient(to bottom, #135058, #9c9d6e) !important;*/
+  /*background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364) !important;*/
+  /*background: linear-gradient(to right, #00416a, #e4e5e6);*/
+  background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+  background-repeat: repeat;
+
+  /*
+  background: #F1F2B5;
+  background: -webkit-linear-gradient(to top, #135058, #F1F2B5);
+  background: linear-gradient(to top, #135058, #F1F2B5);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 768px;
+    font-size: 1.1em;
+
+  }
+}
